@@ -50,8 +50,9 @@ PRODUCT_PACKAGES += \
     offmode_charging \
     offmode_charging_res_images \
     offmode_charging_warn_res_images \
-    power_test
-
+    power_test\
+    chargeled 
+  
 # Audio config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio_policy.conf:system/etc/audio_policy.conf
